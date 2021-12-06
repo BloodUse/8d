@@ -1,0 +1,119 @@
+.class{
+	width: 100%;
+	height: 96vh;
+	background-image: url('https://media.discordapp.net/attachments/784769821224599552/784787988516438035/Screenshot_20201205_182755.jpg?width=639&height=593');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	/*Work hard!*/
+}
+
+.class h1{
+	color: #FFF;
+	padding-top: 1%;
+	font-size: 60px;
+	margin: 0;
+}
+
+.class button{
+	margin-top: 2%;
+}
+
+.text{
+	color:white;
+	font-size: 12.6px;
+    margin-top: 1%;
+}
+
+.half{
+	color: #FFF;
+	font-size: 2vw;
+	padding:10%;
+	margin: 0;
+	display: none;
+	opacity: 0;
+}
+
+
+.half-f{
+	float: left;
+}
+
+.half-s{
+	float: right;
+}
+
+.class h2{
+	margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 900px){
+	.class h1{
+		font-size: 5vw;
+		padding-top:0;
+	}
+	.text{
+		font-size: 1.5vw;
+	}
+	.half{
+		font-size: 2.4vw;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.class h1{
+		padding-top: 2%;
+		font-size: 6.5vw;
+	}
+	.text{
+		font-size:2.7vw;
+	}
+	.half{
+	font-size: 3.2vw;
+    padding: 5%;
+	}
+	.class h2{
+		font-size: 4vw;
+	}
+}
+
+@media screen and (max-width: 450px){
+	.class h1{
+		padding-top: 10%;
+		font-size: 9vw;
+	}
+	.text{
+	padding-top: 21px;
+    font-size: 4.1vw;
+}
+	.half{
+		font-size: 3.1vw;
+		padding: 5%;
+		padding-top: 30%;
+	}
+.class{
+   height:96vh;
+}
+}
+
+@media screen and (max-width: 392px){
+.half{
+	font-size: 3.8vw;
+    padding: 1%;
+    padding-top: 45%;
+}
+.text{
+	font-size: 3.2vw;
+}
+
+}
+
+@media screen and (max-width: 320px){
+	.half{
+	font-size: 3.7vw;
+    padding: 1%;
+    padding-top: 50%;
+}
+	}
